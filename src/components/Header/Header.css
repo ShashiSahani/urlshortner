@@ -1,0 +1,6 @@
+@import '../../Utils/color.css';
+header #logo{
+background-color: white;
+color: rgb(94, 94, 151);
+text-decoration: none;
+}
