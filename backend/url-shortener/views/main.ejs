@@ -1,0 +1,35 @@
+<!-- Create views/main.ejs: -->
+
+<main>
+  <section id="urlbox">
+    <h1 class="header">Paste the URL to be shortened</h1>
+    <form action="/api/shorten" method="post">
+      <div class="div" id="formurl">
+        <input
+          type="text"
+          name="originalUrl"
+          placeholder="Enter the link here"
+          class="input"
+        />
+        <div class="div" id="formbutton">
+          <button type="submit" class="shorturlBtn">Shorten URL</button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <p>
+    ShortURL is a free tool to shorten URLs and generate Short links
+    <br />
+    URL shortener allows creating a shortened link,making it easy to share
+  </p>
+  <section id="emailbox">
+    <h2>Want More? Try Premium Feature!</h2>
+    <p class="boxtextcenterdesc">
+      Custom short links, a powerful dashboard, detailed analytics, API, UTM
+      builder, QR codes, browser extension, app integrations, and support
+    </p>
+    <a href="/" class="colorbutton"> Create Account </a>
+    <br />
+    <br />
+  </section>
+</main>
